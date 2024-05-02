@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000033; /* azul escuro */
+    color: white;
+    background-image: url('nintendo.gif'); /* Adicionando imagem de estrelas */
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.characters img {
+    width: 150px;
+    margin: 0 20px;
+}
+
